@@ -1,13 +1,149 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,600i,700,700i,800,800i&display=swap');
+
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    margin: 0;
+    /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    sans-serif; */
+    font-family: 'Open Sans', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: #646f79;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+        monospace;
+}
+
+.wrapper {
+    width: 100%;
+    margin: 0 auto;
+    float: none;
+    max-width: 1200px;
+    padding: 0 15px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 700;
+    line-height: 1.2;
+    margin: 0 0 15px;
+    color: #151b26;
+}
+
+h3 {
+    font-size: 45px;
+}
+
+p {
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+
+ul {
+    padding: 0;
+    margin: 20px 0;
+    list-style: none;
+    text-align: center;
+}
+
+ul li {
+    display: block;
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+ul li a {
+    text-decoration: none;
+    font-size: 18px;
+    /* text-transform: uppercase; */
+}
+
+/* ul li:not(:first-child){
+  margin-left: 15px;
+} */
+label {
+    font-size: 16px;
+    display: block;
+    margin-bottom: 8px;
+}
+
+input {
+    background-color: #fff;
+    border: 2px solid #e0e6e8;
+    border-radius: 3px;
+    height: 50px;
+    line-height: normal;
+    margin: 0;
+    padding: 0 0 0 16px;
+    transition: border .15s;
+    width: 100%;
+    font-size: 16px;
+    box-sizing: border-box;
+    color: #66717b;
+
+}
+
+input:focus {
+    border: 2px solid #635ac7;
+    outline: none;
+}
+
+input[type="submit"] {
+    background-color: #796eff;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    margin-bottom: 32px;
+    transition: all 0.4s ease-in-out;
+}
+
+input[type="submit"]:hover {
+    background: #635ac7;
+
+}
+
+button[type="button"] {
+    height: 50px;
+    margin-bottom: 20px;
+    display: block;
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 2px 2px 0px, rgba(0, 0, 0, 0.24) 0px 0px 1px 0px !important;
+    border-radius: 3px !important;
+}
+
+button[type="button"]>div {
+    display: none;
+
+}
+
+button[type="button"] span {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.kep-login-facebook.metro {
+    font-size: 14px;
+    padding: 0;
+    border-radius: 0;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+input.active:invalid {
+    border: 2px solid red;
+}
+
+input.active:valid {
+    border: 2px solid green;
+}
+
+button {
+    height: 50px !important;
+    margin-bottom: 24px !important;
 }
