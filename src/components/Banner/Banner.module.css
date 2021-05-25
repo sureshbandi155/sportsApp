@@ -1,0 +1,17 @@
+.Banner{
+    min-height: 450px;
+    text-align: center;
+    position: relative;
+
+}
+.Banner h1,
+.Banner h5,
+.Banner p{
+    color: #fff;
+}
+.Banner .textContent{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

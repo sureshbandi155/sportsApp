@@ -1,0 +1,21 @@
+.NavigationItems {
+    background-color: #0057a9;
+}
+
+.NavigationItems ul {
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+
+.NavigationItems img {
+    max-width: 100px;
+}
+
+.NavigationItems ul li:last-child,
+.NavigationItems ul li:nth-last-child(2) {
+    float: right;
+    position: relative;
+    top: 7px;
+
+}
